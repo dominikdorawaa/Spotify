@@ -108,3 +108,47 @@ img{
 }
 
 
+.menu .regulaminy {
+    position: absolute;
+    bottom: 100px;
+}
+
+.menu .regulaminy ul {
+    list-style: none;
+}
+
+
+.menu .regulaminy ul li a {
+    color: #9e9e9e;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+
+.menu .regulaminy ul li  {
+    padding: 3px;
+}
+
+.menu .jezyk {
+    margin-top: 10px;
+    bottom: 50px;
+    position: absolute;
+}
+
+.jezyk .jezyk_btn{
+    background: #000000;
+    padding: 7px;
+    border-radius: 15px;
+    border:solid #a6a3a3 1px;
+    width: 85px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.jezyk .jezyk_btn:hover{
+    background: #201d1d;
+}
+

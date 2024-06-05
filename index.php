@@ -60,7 +60,40 @@
                 </ul>
             </div>
         </div>
+        <div class="regulaminy">
+            <ul>
+                <li>
+                    <a href="https://www.spotify.com/pl/legal/end-user-agreement/">Kwestie prawne</a>
+                </li>
+                <li>
+                    <a href="https://www.spotify.com/pl/safetyandprivacy/reporting-content">Centrum ochrony prywatności i bezpieczeństwa</a>
+                </li>
+                <li>
+                    <a href="https://www.spotify.com/pl/legal/privacy-policy/">Polityka prywatności</a>
+                </li>
+                <li>
+                    <a href="#">Ustawienie plików cookie</a>
+                </li>
+                <li>
+                    <a href="https://www.spotify.com/pl/legal/privacy-policy/#s3">O reklamach</a>
+                </li>
+                <li>
+                    <a href="https://www.spotify.com/pl/accessibility">Dostępność</a>
+                </li>
+                <li>
+                    <a href="#">Pliki cookies</a>
+                </li>
+            </ul>
+        </div>
 
+        <div class="jezyk">
+            <button class="jezyk_btn">
+                <span class="fa-solid fa-globe"></span>
+                Polski
+            </button>
+
+        </div>
+    </div>
 
 
 </div>
