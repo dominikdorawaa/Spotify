@@ -34,6 +34,35 @@
         </div>
     </div>
 
+
+    <div class="dol-menu">
+        <div class="nawigacja">
+            <ul>
+                <li>
+                    <a href="#">
+                        <span class="fa-solid fa-book"></span>
+                        <span class="ikony">Biblioteka</span>
+                    </a>
+                    <a href="#">
+                        <span class="fa-solid fa-plus"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="nawigacja">
+            <div class="utworz_playliste">
+                <p class="duzy_tekst">Utwórz swoją pierwszą playlistę</p>
+                <p class="maly_tekst">To proste, pomożemy Ci</p>
+                <ul>
+                    <li>
+                        <button class="btn">Utwórz playlistę</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+
 </div>
 
 </body>

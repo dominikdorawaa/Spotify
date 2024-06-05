@@ -31,8 +31,69 @@ body{
     border-radius: 12px;
 }
 
+.dol-menu{
+    background: #121213;
+    width: 265px;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 2;
+}
+
+
+
+.menu .nawigacja ul{
+    list-style: none;
+    margin-top:10px ;
+}
+
+.menu .nawigacja ul li {
+    padding: 10px 0;
+}
+.menu .nawigacja ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size:18px;
+}
+
 .ikony {
     padding: 10px;
+}
+.fa-plus{
+    margin-top: 0;
+    margin-left: 100px;
+}
+.nawigacja .utworz_playliste{
+    background: #1f1f1f;
+    width: 240px;
+    padding: 13px;
+    margin-top: 10px;
+    border-radius: 12px;
+
+
+}
+
+.duzy_tekst{
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.maly_tekst{
+    font-size: 14px;
+}
+
+.btn{
+    background: white;
+    padding: 10px;
+    border-radius: 15px;
+    border:none;
+    width: 130px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 
