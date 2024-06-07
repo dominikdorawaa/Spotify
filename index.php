@@ -115,6 +115,222 @@
         </div>
 
 
+        <div class="content">
+            <div class="playlisty">
+                <h2>Popularni wykonawcy</h2>
+                <div class="lista">
+                    <div class="itemy wykonawca">
+                        <img src="kizo.png" alt="obrazek"/>
+                        <div class="play">
+                            <span class="fa-solid fa-play"></span>
+                        </div>
+                        <h4>Kizo</h4>
+                        <p>Wykonawca</p>
+                    </div>
+
+
+                    <div class="itemy wykonawca">
+                        <img src="kizo.png" alt="obrazek"/>
+                        <div class="play">
+                            <span class="fa-solid fa-play"></span>
+                        </div>
+                        <h4>Kizo</h4>
+                        <p>Wykonawca</p>
+                    </div>
+
+                    <div class="itemy wykonawca">
+                        <img src="kizo.png" alt="obrazek"/>
+                        <div class="play">
+                            <span class="fa-solid fa-play"></span>
+                        </div>
+                        <h4>Kizo</h4>
+                        <p>Wykonawca</p>
+                    </div>
+
+                    <div class="itemy wykonawca">
+                        <img src="kizo.png" alt="obrazek"/>
+                        <div class="play">
+                            <span class="fa-solid fa-play"></span>
+                        </div>
+                        <h4>Kizo</h4>
+                        <p>Wykonawca</p>
+                    </div>
+
+                    <div class="itemy wykonawca">
+                        <img src="kizo.png" alt="obrazek"/>
+                        <div class="play">
+                            <span class="fa-solid fa-play"></span>
+                        </div>
+                        <h4>Kizo</h4>
+                        <p>Wykonawca</p>
+                    </div>
+
+                    <div class="itemy wykonawca">
+                        <img src="kizo.png" alt="obrazek"/>
+                        <div class="play">
+                            <span class="fa-solid fa-play"></span>
+                        </div>
+                        <h4>Kizo</h4>
+                        <p>Wykonawca</p>
+                    </div>
+
+
+                    <div class="itemy wykonawca">
+                        <img src="kizo.png" alt="obrazek"/>
+                        <div class="play">
+                            <span class="fa-solid fa-play"></span>
+                        </div>
+                        <h4>Kizo</h4>
+                        <p>Wykonawca</p>
+                    </div>
+
+                </div>
+
+
+                <div class="playlisty">
+                    <h2>Popularne radio</h2>
+                    <div class="lista">
+                        <div class="itemy">
+                            <img src="bambi.png" alt="obrazek"/>
+                            <div class="play">
+                                <span class="fa-solid fa-play"></span>
+                            </div>
+                            <h4>sanah - radio</h4>
+                            <p>Wraz z bryska, Dawid Kwiatkowski, Sylwia...</p>
+                        </div>
+
+
+
+                        <div class="itemy">
+                            <img src="bambi.png" alt="obrazek"/>
+                            <div class="play">
+                                <span class="fa-solid fa-play"></span>
+                            </div>
+                            <h4>Reto - radio</h4>
+                            <p>Wraz z bryska, Dawid Kwiatkowski, Sylwia...</p>
+                        </div>
+
+
+                        <div class="itemy">
+                            <img src="bambi.png" alt="obrazek"/>
+                            <div class="play">
+                                <span class="fa-solid fa-play"></span>
+                            </div>
+                            <h4>Lana Del Rey - radio</h4>
+                            <p>Wraz z bryska, Dawid Kwiatkowski, Sylwia...</p>
+                        </div>
+
+
+                        <div class="itemy">
+                            <img src="bambi.png" alt="obrazek"/>
+                            <div class="play">
+                                <span class="fa-solid fa-play"></span>
+                            </div>
+                            <h4>sanah - radio</h4>
+                            <p>Wraz z bryska, Dawid Kwiatkowski, Sylwia...</p>
+                        </div>
+
+                        <div class="itemy">
+                            <img src="bambi.png" alt="obrazek"/>
+                            <div class="play">
+                                <span class="fa-solid fa-play"></span>
+                            </div>
+                            <h4>sanah - radio</h4>
+                            <p>Wraz z bryska, Dawid Kwiatkowski, Sylwia...</p>
+                        </div>
+
+                        <div class="itemy">
+                            <img src="bambi.png" alt="obrazek"/>
+                            <div class="play">
+                                <span class="fa-solid fa-play"></span>
+                            </div>
+                            <h4>sanah - radio</h4>
+                            <p>Wraz z bryska, Dawid Kwiatkowski, Sylwia...</p>
+                        </div>
+
+                        <div class="itemy">
+                            <img src="bambi.png" alt="obrazek"/>
+                            <div class="play">
+                                <span class="fa-solid fa-play"></span>
+                            </div>
+                            <h4>sanah - radio</h4>
+                            <p>Wraz z bryska, Dawid Kwiatkowski, Sylwia...</p>
+                        </div>
+                    </div>
+
+
+                    <div class="playlisty">
+                        <h2>Losowe Utwory</h2>
+                        <div class="lista">
+                            <div class="itemy">
+                                <img src="bambi.png" alt="obrazek"/>
+                                <div class="play">
+                                    <span class="fa-solid fa-play"></span>
+                                </div>
+                                <h4>sanah - radio</h4>
+                                <p>Wraz z bryska, Dawid Kwiatkowski, Sylwia...</p>
+                            </div>
+
+
+                            <div class="itemy">
+                                <img src="bambi.png" alt="obrazek"/>
+                                <div class="play">
+                                    <span class="fa-solid fa-play"></span>
+                                </div>
+                                <h4>sanah - radio</h4>
+                                <p>Wraz z bryska, Dawid Kwiatkowski, Sylwia...</p>
+                            </div>
+
+
+
+                            <div class="itemy">
+                                <img src="bambi.png" alt="obrazek"/>
+                                <div class="play">
+                                    <span class="fa-solid fa-play"></span>
+                                </div>
+                                <h4>sanah - radio</h4>
+                                <p>Wraz z bryska, Dawid Kwiatkowski, Sylwia...</p>
+                            </div>
+
+                            <div class="itemy">
+                                <img src="bambi.png" alt="obrazek"/>
+                                <div class="play">
+                                    <span class="fa-solid fa-play"></span>
+                                </div>
+                                <h4>sanah - radio</h4>
+                                <p>Wraz z bryska, Dawid Kwiatkowski, Sylwia...</p>
+                            </div>
+
+
+                            <div class="itemy">
+                                <img src="bambi.png" alt="obrazek"/>
+                                <div class="play">
+                                    <span class="fa-solid fa-play"></span>
+                                </div>
+                                <h4>sanah - radio</h4>
+                                <p>Wraz z bryska, Dawid Kwiatkowski, Sylwia...</p>
+                            </div>
+
+                            <div class="itemy">
+                                <img src="bambi.png" alt="obrazek"/>
+                                <div class="play">
+                                    <span class="fa-solid fa-play"></span>
+                                </div>
+                                <h4>sanah - radio</h4>
+                                <p>Wraz z bryska, Dawid Kwiatkowski, Sylwia...</p>
+                            </div>
+
+
+
+                            <div class="itemy">
+                                <img src="bambi.png" alt="obrazek"/>
+                                <div class="play">
+                                    <span class="fa-solid fa-play"></span>
+                                </div>
+                                <h4>sanah - radio</h4>
+                                <p>Wraz z bryska, Dawid Kwiatkowski, Sylwia...</p>
+                            </div>
+                        </div>
 
 
     </body>

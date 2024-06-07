@@ -242,3 +242,94 @@ body {
     color: #dddddd;
     font-size: 16px;
 }
+
+
+
+.playlisty h2 {
+    color: white;
+    font-size: 23px;
+    margin: 25px 0  0 25px;
+
+}
+
+.playlisty .lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+
+}
+
+.playlisty .lista .itemy.wykonawca img {
+    border-radius: 100%;
+}
+
+.playlisty .lista .itemy {
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all ease 0.4s;
+    margin-top:20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.playlisty .lista .itemy img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.playlisty .lista .itemy:hover {
+    background: #222121;
+}
+
+.playlisty .lista .itemy .play .fa-solid {
+    position: absolute;
+    right: 10px;
+    top: -60px;
+    padding: 20px;
+    background-color: #03a54e;
+    border-radius: 100%;
+    opacity: 0;
+    transition: all ease 0.2s;
+}
+
+.playlisty .lista .itemy .play {
+    position: relative;
+}
+
+.playlisty .lista .itemy:hover .play .fa-solid {
+    opacity: 1;
+    transform: translateY(-10px);
+    color: black;
+    font-size: 15px;
+}
+
+.playlisty .lista .itemy p {
+    color: #aaaaaa;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.playlisty .lista .itemy h4 {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.playlisty hr {
+    margin: 70px 0 0;
+    border-color: #636363;
+}
+
+.content {
+    background: linear-gradient(to bottom, #171616, #131313);
+    margin-left: 20px;
+    margin-right:  7px;
+    border-radius: 0 0 12px 12px;
+    bottom: 0;
+    flex: 1;
+}
