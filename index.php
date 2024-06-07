@@ -333,5 +333,109 @@
                         </div>
 
 
+                        <div class="stopka">
+                            <div class="columna">
+                                <h4>Firma</h4>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.spotify.com/pl/about-us/contact/">Informacje</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.lifeatspotify.com/">Praca</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://newsroom.spotify.com/">For the Record</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                            <div class="columna">
+                                <h4>Społeczności</h4>
+                                <ul>
+                                    <li>
+                                        <a href="https://artists.spotify.com/home">Dla artystów</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://developer.spotify.com/">Deweloperzy</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://ads.spotify.com/en-US/">Reklama</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://investors.spotify.com/home/default.aspx">Inwestorzy</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://spotifyforvendors.com/">Dostawcy</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="columna">
+                                <h4>Przydatne linki</h4>
+                                <ul>
+                                    <li>
+                                        <a href="https://support.spotify.com/pl/">Pomoc</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.spotify.com/pl/free/">Bezpłatna aplikacja moblina</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="columna">
+                                <h4>Plany Spotify</h4>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.spotify.com/pl/premium/?ref=spotifycom_footer_premium_individual">Premium Individual</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.spotify.com/pl/duo/?ref=spotifycom_footer_premium_duo">Premium Duo</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.spotify.com/pl/family/?ref=spotifycom_footer_premium_family">Premium Family</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.spotify.com/pl/student/?ref=spotifycom_footer_premium_student">Premium Student</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.spotify.com/pl/free/?ref=spotifycom_footer_free">Spotify Free</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="columna">
+                                <ul>
+                                    <li>
+                                        <button class="sociale"><a href="https://www.instagram.com/spotify/"><i class="fa-brands fa-instagram"></a></i></button>
+                                        <button class="sociale"><a href="https://x.com/spotify"><i class="fa-brands fa-twitter"></a></i></button>
+                                        <button class="sociale"><a href="https://www.facebook.com/spotifypl/?brand_redir=6243987495#"><i class="fa-brands fa-facebook"></a></i></button>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+
+                        </div>
+
+
+                        <hr>
+
+                    </div>
+                    <p class="prawa"> &reg; 2024 Dominik Music </p>
+
+                    <div class="podglad">
+                        <div class="text">
+                            <h5>Podgląd Spotify</h5>
+                            <p>Zarejestruj się, aby słuchać utworów i podcastów przetywanych sporadycznie reklamami. Nie wymagamy podania numeru karty kredytowej.</p>
+                        </div>
+                        <div class="button">
+                            <button type="button">Zarejestruj się za darmo</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
     </body>
 </html>

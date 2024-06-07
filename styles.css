@@ -333,3 +333,106 @@ body {
     bottom: 0;
     flex: 1;
 }
+
+
+
+.podglad {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    margin: 10px;
+    opacity: 1;
+
+}
+
+
+.podglad button {
+    background: white;
+    color: #000000;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+.podglad button:hover {
+    transform: scale(1.03);
+    background: #bfbcbc;
+}
+
+
+h5 {
+    margin-bottom: 5px;
+    font-weight: 800;
+}
+
+
+.prawa {
+    opacity: 50%;
+    margin: 40px;
+}
+
+.stopka {
+
+    margin: 50px 20px ;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 10px;
+
+
+}
+
+.stopka .columna {
+    flex: 1;
+    line-height: 30px;
+}
+
+.stopka ul li a {
+    text-decoration: none;
+    color: #c1c1c1;
+
+}
+
+.stopka ul li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+.stopka ul li {
+    list-style-type: none;
+    line-height: 35px;
+}
+
+.stopka h4 {
+    margin: 0;
+
+}
+
+.stopka ul {
+    padding-left: 0;
+    line-height: 20px;
+}
+
+.fa-instagram, .fa-twitter, .fa-facebook{
+    color: white;
+    font-size: 17px;
+}
+
+.sociale:hover {
+    background: #302f2f;
+}
+
+
+.sociale {
+    border: none;
+    border-radius: 100%;
+    height: 35px;
+    width: 35px;
+    background: #1f1f1f;
+}
