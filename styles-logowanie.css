@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #2c2b2b, #131313);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background: #121212;
+    width: 650px;
+    margin: 30px  auto 200px;
+    padding: 30px;
+    border-radius: 10px;
+    flex-grow: 1;
+}
+
+.mini-logo img {
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.mini-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.container button {
+    display: block;
+    margin: 10px auto;
+    padding: 15px;
+    color: white;
+    background: none;
+    border: 1px #a8a8a8 solid;
+    border-radius: 20px;
+    width: 350px;
+    font-size: 16px;
+}
+
+.container button:hover {
+    border: 1px solid white;
+}
+
+hr {
+    margin-top: 40px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.container h1 {
+    margin-bottom: 40px;
+    color: white;
+}
+
+.text, .formularz {
+    display: block;
+    padding: 15px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+.fa-brands {
+    margin-right: 20px;
+}
+
+.zaloguj {
+    background: #1ed760;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 15px;
+    color: #121212;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 330px;
+}
+
+.zaloguj:hover {
+    transform: scale(1.05);
+}
+
+.formularz a {
+    margin-left: 70px;
+    color: white;
+}
+
+.check {
+    margin-top: 10px;
+}
+
+.box {
+    margin-left: 5px;
+}
+
+.end {
+    /*margin: 50px auto 0;*/
+    margin-top: 60px;
+    text-align: center;
+}
+
+.end a {
+    color: white;
+    font-size: 17px;
+}
+
+.end p {
+    font-size: 17px;
+}
+
+.dol {
+    background: #121212;
+    height: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.dol a, .dol p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #918e8e;
+}
+
+.all {
+    background: linear-gradient(to bottom, #2c2b2b, #131313);
+}

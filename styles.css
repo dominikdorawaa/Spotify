@@ -7,15 +7,15 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #000000;
     color: white;
+
 }
 
 .menu {
     position: fixed;
     left: 0;
     top: 0;
-    bottom: 75px;
+    bottom:0;
     width: 280px;
     padding: 10px 24px 24px 10px;
     background: #000000;
@@ -37,6 +37,7 @@ body {
     padding: 10px;
     border-radius: 12px;
     margin-top: 10px;
+    margin-bottom: 75px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -118,11 +119,12 @@ body {
 
 .menu .regulaminy {
     position: absolute;
-    bottom: 40px;
+    bottom: 130px;
     background: #121213;
     width: 270px;
     padding: 10px;
-    height: 300px;
+    height: 250px;
+
 }
 
 .menu .regulaminy ul {
@@ -142,8 +144,9 @@ body {
 
 .menu .jezyk {
     margin-top: 15px;
-    bottom: 100px;
+    bottom: 150px;
     position: absolute;
+    margin-left: 10px;
 }
 
 .jezyk .jezyk_btn {
@@ -164,11 +167,12 @@ body {
 }
 
 .container {
-    margin-bottom: 100px;
-    margin-left: 300px;
+
+    margin-left:300px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #000000;
 
 
 }
@@ -243,8 +247,6 @@ body {
     font-size: 16px;
 }
 
-
-
 .playlisty h2 {
     color: white;
     font-size: 23px;
@@ -258,6 +260,8 @@ body {
     gap: 20px;
 
 }
+
+
 
 .playlisty .lista .itemy.wykonawca img {
     border-radius: 100%;
@@ -330,10 +334,12 @@ body {
     margin-left: 20px;
     margin-right:  7px;
     border-radius: 0 0 12px 12px;
-    bottom: 0;
+    margin-bottom: 100px;
     flex: 1;
-}
 
+    padding-right: 50px;
+
+}
 
 
 .podglad {
@@ -373,7 +379,7 @@ h5 {
 }
 
 
-.prawa {
+.prawa{
     opacity: 50%;
     margin: 40px;
 }
@@ -392,6 +398,7 @@ h5 {
 .stopka .columna {
     flex: 1;
     line-height: 30px;
+
 }
 
 .stopka ul li a {
@@ -417,6 +424,7 @@ h5 {
 .stopka ul {
     padding-left: 0;
     line-height: 20px;
+
 }
 
 .fa-instagram, .fa-twitter, .fa-facebook{
@@ -424,12 +432,12 @@ h5 {
     font-size: 17px;
 }
 
-.sociale:hover {
+.sociale:hover{
     background: #302f2f;
 }
 
 
-.sociale {
+.sociale{
     border: none;
     border-radius: 100%;
     height: 35px;
