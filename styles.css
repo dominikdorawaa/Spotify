@@ -275,12 +275,15 @@ body {
     margin-top:20px;
     margin-left: 20px;
     margin-bottom: 20px;
+
+
 }
 
 .playlisty .lista .itemy img {
     width: 100%;
     border-radius: 6px;
     margin-bottom: 10px;
+
 }
 
 .playlisty .lista .itemy:hover {
