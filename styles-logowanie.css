@@ -56,6 +56,22 @@ body {
     border: 1px solid white;
 }
 
+
+.container button a{
+    color:white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.container button a:focus,
+.container button a:active{
+    color:white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
 hr {
     margin-top: 40px;
     width: 500px;
@@ -139,4 +155,10 @@ hr {
 
 .all {
     background: linear-gradient(to bottom, #2c2b2b, #131313);
+}
+
+.error{
+    color:red;
+    font-size: 14px;
+    text-align: center;
 }
