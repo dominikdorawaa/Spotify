@@ -247,6 +247,12 @@ body {
     font-size: 16px;
 }
 
+
+.topbar .navbar a{
+    text-decoration: none;
+    color: #090909;
+}
+
 .playlisty h2 {
     color: white;
     font-size: 23px;
@@ -337,7 +343,7 @@ body {
     margin-left: 20px;
     margin-right:  7px;
     border-radius: 0 0 12px 12px;
-    margin-bottom: 100px;
+    margin-bottom: 0;
     flex: 1;
 
     padding-right: 50px;
@@ -373,6 +379,12 @@ body {
 .podglad button:hover {
     transform: scale(1.03);
     background: #bfbcbc;
+}
+
+
+.podglad a {
+    text-decoration: none;
+    color: #090909;
 }
 
 
