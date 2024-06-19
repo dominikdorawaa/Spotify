@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: #121212;
+}
+
+.mini-logo img {
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+}
+
+.mini-logo{
+    display: flex;
+    justify-content: center;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background: #121212;
+    width: 450px;
+    margin: 10px  auto 200px;
+    padding: 30px;
+    border-radius: 10px;
+    flex-grow: 1;
+}
+
+.container h1{
+    word-wrap: break-word;
+    font-size: 50px;
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    padding: 15px;
+    width: 350px;
+    border-radius: 20px;
+    margin-top: 10px;
+    background: none;
+    border: 1px solid #cccccc;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.container button:hover{
+    border: 1px solid white;
+}
+
+.text{
+    display: block;
+    padding: 15px;
+    width: 300px;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+    background: none;
+    color:white;
+    font-size: 14px;
+}
+
+.wiecej{
+    width: 331px;
+}
+
+.container p {
+    margin-top:50px ;
+    margin-bottom:  5px;
+    margin-left: 0;
+    display:inline-block;
+    font-weight: bold;
+}
+
+.formularz p {
+    margin-top:0;
+    margin-left: 0;
+    margin-bottom:5px;
+
+    display: block;
+    font-weight: bold;
+}
+
+
+.formularz {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formularz a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.formularz button:hover{
+    border: 2px solid #c8c8c8
+}
+
+.dalej{
+    padding:  12px;
+    border: none;
+    border-radius:25px;
+    width: 330px;
+    color:black;
+    background: #03a54e;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+.dalej:hover{
+    background: #31e184;
+    transform: scale(1.05);
+}
+
+.fa-brands {
+    margin-right:20px;
+}
+
+
+.end {
+
+    margin-top: 40px;
+    text-align: center;
+}
+
+.end a {
+    color: white;
+    font-size: 17px;
+}
+
+.end p {
+    font-size: 17px;
+    color: #918e8e;
+}
+
+.dol {
+    background: #121212;
+    height: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.dol a, .dol p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #918e8e;
+}
+
+.error{
+    color:red;
+    font-size: 14px;
+    text-align: center;
+}
+
