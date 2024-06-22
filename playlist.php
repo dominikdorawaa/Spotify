@@ -53,7 +53,7 @@ if (isset($_GET['song_id'])) {
         <div class="nawigacja">
             <ul>
                 <li>
-                    <a href="index.php">
+                    <a href="zalogowanyindex.php">
                         <span class="fa fa-home"></span>
                         <span class="ikony">Home</span>
                     </a>
@@ -104,9 +104,20 @@ if (isset($_GET['song_id'])) {
 <div class="container">
     <div class="topbar">
         <div class="strzalki-btn">
-            <button type="button" class="fa-solid fa-chevron-left"></button>
-            <button type="button" class="fa-solid fa-chevron-right"></button>
+            <button type="button" class="fa-solid fa-chevron-left" onclick="goBack()" </button>
+            <button type="button" class="fa-solid fa-chevron-right" onclick="goForward()"></button>
         </div>
+
+        <script>
+            function goBack() {
+                window.history.back();
+            }
+
+            function goForward() {
+                window.history.forward();
+            }
+        </script>
+
 
         <div class="navbar">
             <ul>
@@ -322,8 +333,8 @@ if (isset($_GET['song_id'])) {
     }
 
     function playSong(path) {
-        song.src = path; // Ustawia ścieżkę piosenki na podaną przez argument
-        song.play(); // Odtwarza piosenkę po zmianie ścieżki
+        song.src = path;
+        song.play();
     }
 </script>
 </body>
