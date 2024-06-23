@@ -4,6 +4,13 @@ require_once 'db.inc.php';
 
 
 
+if (isset($_SESSION['user_id'])) {
+
+    header("Location: zalogowanyindex.php");
+    exit();
+}
+
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['akceptuj-ciasteczka'])) {
     setcookie('cookiesAccepted', 'true', time() + (86400 * 30), "/");
     header("Location: " . $_SERVER['PHP_SELF']);
@@ -51,7 +58,7 @@ $songs = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     </a>
                 </li>
                 <li>
-                    <a href="search.php?query">
+                    <a href="zaloguj.php">
                         <span class="fa fa-search"></span>
                         <span class="ikony">Szukaj</span>
                     </a>
@@ -83,7 +90,7 @@ $songs = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
                     <li>
                         <a href="zaloguj.php">
-                            <button class="xdd">Utwórz playlistę</button>
+                            <button class="btn">Utwórz playlistę</button>
                         </a>
                     </li>
 
