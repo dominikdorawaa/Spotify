@@ -1,5 +1,8 @@
 <?php
 session_start();
+
+
+
 require_once 'vendor/autoload.php';
 
 
@@ -45,5 +48,6 @@ if (isset($_GET['code'])) {
 
     $authUrl = $client->createAuthUrl();
     header('Location: ' . filter_var($authUrl, FILTER_SANITIZE_URL));
+    exit;
 }
 ?>
