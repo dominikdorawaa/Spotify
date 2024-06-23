@@ -1,0 +1,790 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+
+}
+
+.menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom:0;
+    width: 280px;
+    padding: 10px 24px 24px 10px;
+    background: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gora-menu {
+    background: #121213;
+    width: 270px;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+
+.dol-menu {
+    background: #121213;
+    width: 280px;
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 10px;
+    margin-bottom: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+
+
+
+
+
+.dol-menu .nowa-playlista{
+    padding: 5px;
+    margin-top:10px;
+    color: black;
+    height: 490px;
+    width: 260px;
+    overflow: scroll;
+
+
+}
+
+
+
+.nowa-playlista .playlist-item{
+    margin-top:10px;
+    padding: 8px;
+    height: 55px;
+    width: 240px;
+    color:white;
+    border-radius: 10px;
+    position: relative;
+    text-decoration: none;
+
+}
+
+
+.nowa-playlista .obrazek-playlisty{
+    height: 50px;
+    width: 50px;
+    background: #202020;
+    position: absolute;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.obrazek-playlisty .fa-music{
+    margin-left: 7px;
+    font-size: 30px;
+    opacity: 30%;
+}
+
+.playlist-item p{
+    margin-left: 60px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+.nowa-playlista a{
+    text-decoration: none;
+}
+
+.nowa-playlista .playlist-item:hover{
+    background: #1c1a1a;
+}
+
+
+
+
+.menu .nawigacja ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.menu .nawigacja ul li {
+    padding: 10px 0;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu .nawigacja ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.ikony {
+    padding: 10px;
+}
+
+.fa-plus {
+    margin-top: 0;
+    margin-left: 120px;
+}
+
+.fa-user{
+    color:white;
+}
+
+.nawigacja .utworz_playliste {
+    background: #1f1f1f;
+    width: 255px;
+    padding: 13px;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+
+.nawigacja .btn-plus{
+    width: 30px;
+    height: 30px;
+    background: none;
+    color:white;
+    border: none;
+}
+
+.nawigacja form {
+    display: inline-block;
+}
+
+.fa-plus {
+    margin-left: 120px;
+    font-size: 18px;
+}
+.fa-plus:hover {
+    transform: scale(1.04);
+}
+
+
+.btn:hover {
+    background: #cccaca;
+    transform: scale(1.04);
+}
+
+
+.duzy_tekst {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.maly_tekst {
+    font-size: 14px;
+}
+
+.btn {
+    background: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    width: 130px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.menu .logo img {
+    height: 25px;
+}
+
+.menu .nawigacja ul li a:hover,
+.menu .nawigacja ul li a:active,
+.menu .nawigacja ul li a:focus {
+    color: #ffffff;
+}
+
+
+
+
+
+.container {
+
+    margin-left:300px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #000000;
+
+
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    background: #121213;
+    padding: 12px 20px;
+    align-items: center;
+    margin: 10px 7px -1px 20px;
+    border-radius: 12px 12px 0 0;
+}
+
+.topbar .strzalki-btn button {
+    color: rgba(214, 211, 211, 0.63);
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 100%;
+    font-size: 18px;
+    border: none;
+    background-color: #090909;
+}
+
+.topbar .strzalki-btn {
+    display: flex;
+}
+
+
+.topbar .navbar {
+    display: flex;
+    align-items: center;
+}
+
+.topbar .navbar ul {
+    list-style: none;
+}
+
+.topbar .navbar ul li {
+    display: inline-block;
+    margin: 0 8px;
+
+}
+
+.topbar .navbar .account {
+    background: #090909;;
+    padding: 8px;
+    border-radius: 100%;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    margin: 0 8px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown input[type="checkbox"] {
+    display: none;
+}
+
+.dropdown input[type="checkbox"]:checked ~ .dropdown-content {
+    display: block;
+}
+
+.account-label {
+    cursor: pointer;
+    background: #090909;;
+    padding: 8px;
+    border-radius: 100%;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    width: 35px;
+    height: 35px;
+    margin: 0 8px;
+}
+
+.account-label:hover{
+    transform: scale(1.05);
+}
+
+
+
+.fa-bell{
+    color: #d5d2d2;
+    font-size: 17px;
+}
+
+
+.topbar .navbar .odkryj-premium{
+    background: white;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.topbar .navbar button:hover {
+    transform: scale(1.10);
+
+}
+
+
+.topbar .navbar ul li a {
+    color: #090909;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+
+
+
+.topbar .navbar a{
+    text-decoration: none;
+    color: #090909;
+}
+
+.playlisty h2 {
+    color: white;
+    font-size: 23px;
+    margin: 25px 0  0 25px;
+
+}
+
+.playlisty .lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+
+}
+
+
+
+.playlisty .lista .itemy.wykonawca img {
+    border-radius: 100%;
+}
+
+.playlisty .lista .itemy {
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all ease 0.4s;
+    margin-top:20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.playlisty .lista .itemy img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 10px;
+
+}
+
+.playlisty .lista .itemy:hover {
+    background: #222121;
+}
+
+.playlisty .lista .itemy .play .fa-solid {
+    position: absolute;
+    right: 10px;
+    top: -60px;
+    padding: 20px;
+    background-color: #03a54e;
+    border-radius: 100%;
+    opacity: 0;
+    transition: all ease 0.2s;
+}
+
+.playlisty .lista .itemy .play {
+    position: relative;
+}
+
+.playlisty .lista .itemy:hover .play .fa-solid {
+    opacity: 1;
+    transform: translateY(-10px);
+    color: black;
+    font-size: 15px;
+}
+
+.playlisty .lista .itemy p {
+    color: #aaaaaa;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.playlisty .lista .itemy h4 {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.playlisty hr {
+    margin: 70px 0 0;
+    border-color: #636363;
+}
+
+.content {
+    background: linear-gradient(to bottom, #171616, #131313);
+    margin-left: 20px;
+    margin-right:  7px;
+    border-radius: 0 0 12px 12px;
+    margin-bottom: 100px;
+    flex: 1;
+
+
+}
+
+
+
+
+.content .all-playlista{
+    height: 1200px;
+    width: 100%;
+    margin-bottom:350px;
+
+}
+
+.content .nazwa-playlisty{
+    height: 300px;
+    width: 100%;
+    background: #121213;
+
+
+}
+
+.nazwa-playlisty h1 {
+    font-weight:bold;
+    font-size:80px;
+    padding-top: 100px;
+    padding-left: 50px;
+    border-radius: 15px;
+}
+
+
+
+.content .delete-playlist-btn{
+    padding: 10px;
+    background: #ffffff;
+    color:black;
+    border: none;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 600px;
+}
+
+.content .delete-playlist-btn:hover{
+    transform: scale(1.05);
+
+}
+
+.fa-trash{
+    font-size: 16px;
+}
+
+.all-playlista .wyszukaj{
+    padding:10px;
+    margin-left: 20px;
+    height: 30px;
+    width: 500px;
+    margin-top:10px;
+    background: #434242;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+/*.all-playlista p{*/
+/*    display: block;*/
+/*    font-size: 20px;*/
+/*    font-weight: bold;*/
+/*    margin-top:40px;*/
+/*    margin-left: 10px;*/
+/*}*/
+
+.odtwarzanie {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    height: 80px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    margin: 0;
+    opacity: 1;
+    z-index: 1;
+}
+
+.odtwarzanie .ikony {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 10px;
+}
+
+.ikony i {
+    font-size: 23px;
+    cursor: pointer;
+}
+
+
+
+#progress {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 10px;
+}
+
+
+.dolny-zasieg{
+    max-width: 120px;
+    height: 4px;
+}
+
+
+
+
+.volume-ikony {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    right: 20px;
+    bottom: 40px;
+}
+
+.volume-ikony i {
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.regulaminy {
+    margin-top: 30px;
+    margin-left: 10px;
+
+    background: #121213;
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+}
+
+.regulaminy ul li p {
+    margin-left:320px;
+    font-size: 13px;
+    color: #9e9e9e;
+}
+
+.regulaminy ul {
+    list-style: none;
+}
+
+.regulaminy ul li a {
+    color: #9e9e9e;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+}
+
+.regulaminy ul li {
+    padding: 3px;
+    display: inline-block;
+}
+
+
+.stopka {
+    margin:20px 50px;
+
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 10px;
+
+
+}
+
+.stopka .columna {
+    flex: 1;
+    line-height: 30px;
+
+}
+
+.stopka ul li a {
+    text-decoration: none;
+    color: #c1c1c1;
+
+}
+
+.stopka ul li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+.stopka ul li {
+    list-style-type: none;
+    line-height: 35px;
+}
+
+.stopka h4 {
+    margin: 0;
+
+}
+
+.stopka ul {
+    padding-left: 0;
+    line-height: 20px;
+
+}
+
+.fa-instagram, .fa-twitter, .fa-facebook{
+    color: white;
+    font-size: 17px;
+}
+
+.sociale:hover{
+    background: #302f2f;
+}
+
+
+.sociale{
+    border: none;
+    border-radius: 100%;
+    height: 35px;
+    width: 35px;
+    background: #1f1f1f;
+}
+
+
+.song-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+
+}
+
+.song-table th, .song-table td {
+    padding: 15px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.song-table th {
+    background-color: #282828;
+
+}
+
+.song-table tr:nth-child(even) {
+    background-color: #181818;
+}
+
+.song-table tr:hover {
+    background-color: #282828;
+}
+
+.song-table tr:hover .play {
+    visibility: visible;
+}
+
+.play {
+    visibility: hidden;
+    background-color: #45a049;
+    color: white;
+    padding: 8px ;
+    border-radius:25px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    width: 30px;
+    height: 30px;
+    line-height: 10px;
+}
+
+.song-table img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.song-table tr td {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.song-table a {
+    text-decoration: none;
+}
+
+
+
+.song-table td {
+    margin-bottom: 50px;
+    vertical-align: middle;
+}
+
+.song-table .add {
+    background-color: black;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 25px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.wyniki-tabeli{
+
+    height: 700px;
+    margin-bottom: 100px;
+    margin-top: 200px;
+
+}
+
+.wyniki-tabeli h2{
+    margin-left: 15px;
+}
+
+.wyszukiwanie-utworu{
+    margin-top: 200px;
+}
