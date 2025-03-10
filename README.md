@@ -5,9 +5,9 @@ Aplikacja pozwala odtwarzać, wyszukiwać dostępną z bazy muzykę oraz tworzy�
 [Zobacz na żywo](http://szuflandia.pjwstk.edu.pl/~s30574/Spotify-clone/)
 
 
+---
 
 ### Funkcje:
----
 - Odtwarzanie utworów
 - Wyszukiwanie utorów
 - Tworzenie i usuwanie playlist
