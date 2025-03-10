@@ -1,6 +1,6 @@
 # SPOTIFY-CLONE
 Stworzyłem klon popularnej aplikacji do streamowania muzyki przy użyciu PHP, HTML, CSS, JS, SQL.
-Aplikacja pozwala odtwarzać, wyszukiwać dostępną z bazy muzykę 
+Aplikacja pozwala odtwarzać, wyszukiwać z bazy muzykę 
 oraz tworzyć playlisty przypisane do własnego konta. 
 
 [Zobacz na żywo](http://szuflandia.pjwstk.edu.pl/~s30574/Spotify-clone/)
